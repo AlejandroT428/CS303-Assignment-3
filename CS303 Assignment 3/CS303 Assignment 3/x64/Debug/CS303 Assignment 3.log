@@ -1,0 +1,21 @@
+﻿  main.cpp
+C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(116,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\vectorN.h(164,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\vectorN.h(164,11):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(33,18):
+  	see reference to class template instantiation 'AT::vector<int>' being compiled
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\vectorN.h(163,7):
+  	while compiling class template member function 'int AT::vector<int>::size(void)'
+  		C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(40,2):
+  		see the first reference to 'AT::vector<int>::size' in 'insertion_sort'
+  
+C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(11,11): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(11,11):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(150,16):
+  	see reference to function template instantiation 'int linear_search<int>(AT::vector<int> &,int,size_t)' being compiled
+  
+C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\CS303 Assignment 3\main.cpp(20,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  CS303 Assignment 3.vcxproj -> C:\Users\lalex\source\repos\week-13-AlejandroT428\CS303 Assignment 3\x64\Debug\CS303 Assignment 3.exe
